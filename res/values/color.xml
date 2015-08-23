@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bright_light_green">#ff00ffc1</color>
+    <color name="dark_green">#ff1c9800</color>
+    <color name="darkest_green">#ff2a623d</color>
+    <color name="lumia_blue">#ff00abff</color>
+    <color name="lumia_yellow">#ffffd000</color>
+    <color name="lumia_red">#ffff0f00</color>
+    <color name="lumia_dark_blue">#ff0050b0</color>
+    <color name="darkest_pink">#ffd33682</color>
+    <color name="dark_pinf">#ffff6699</color>
+    <color name="olive">#ff859900</color>
+    <color name="blue">#ff00a2e8</color>
+    <color name="pink">#ff7b68ee</color>
+    <color name="y">#ffffff00</color>
+    <color name="yello">#fffff200</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff49c40f</color>
+    <color name="orange">#ffffc90e</color>
+    <color name="darkgreen">#ff008080</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+</resources>

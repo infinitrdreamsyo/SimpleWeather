@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/app_settings" >
+        <ListPreference
+            android:defaultValue="@string/twenty_four_hr"
+            android:entries="@array/timeformatarray"
+            android:entryValues="@array/timeformatarray"
+            android:key="timeformat"
+            android:summary="@string/twenty_four_hr"
+            android:title="@string/time_format" />
+        <ListPreference
+            android:defaultValue="@string/celcius"
+            android:entries="@array/temperaturearray"
+            android:entryValues="@array/temperaturearray"
+            android:key="temperatureformat"
+            android:summary="@string/celcius"
+            android:title="@string/temp_format" />
+        <ListPreference
+            android:defaultValue="@string/kmph"
+            android:entries="@array/windspeedarray"
+            android:entryValues="@array/windspeedarray"
+            android:key="windpeedformat"
+            android:summary="@string/kmph"
+            android:title="@string/wind_speed_format" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/application_info" >
+        <Preference
+            android:defaultValue="@string/terms_condi"
+            android:key="term_condition"
+            android:title="@string/terms_condi" />
+        <Preference
+            android:defaultValue="@string/help"
+            android:key="help"
+            android:title="@string/help" />
+        <Preference
+            android:defaultValue="@string/app_version"
+            android:key="about"
+            android:summary="@string/app_version"
+            android:title="@string/about" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
